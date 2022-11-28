@@ -1,0 +1,7 @@
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\bin\Debug\ByteBank_ADM.exe.config
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\bin\Debug\ByteBank_ADM.exe
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\bin\Debug\ByteBank_ADM.pdb
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\obj\Debug\ByteBank_ADM.csprojAssemblyReference.cache
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\obj\Debug\ByteBank_ADM.csproj.CoreCompileInputs.cache
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\obj\Debug\ByteBank_ADM.exe
+C:\Users\kauan.silva\source\repos\CursosAlura\ByteBank_ADM\ByteBank_ADM\obj\Debug\ByteBank_ADM.pdb
