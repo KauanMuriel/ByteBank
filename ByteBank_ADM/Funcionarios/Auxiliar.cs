@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ByteBank_ADM.Interface;
 
 namespace ByteBank_ADM.Funcionarios
 {
-	class Auxiliar : Funcionario
+	class Auxiliar : Funcionario, IBonificacao
 	{
 		public Auxiliar(string cpf) : base (cpf, 2000)
 		{

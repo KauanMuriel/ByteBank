@@ -1,8 +1,8 @@
-﻿using System;
+﻿using ByteBank_ADM.Interface;
 
 namespace ByteBank_ADM.Funcionarios
 {
-	public abstract class Funcionario
+	public abstract class Funcionario : IBonificacao
 	{
 		public string Nome { get; set; }
 		public string CPF { get; private set; }

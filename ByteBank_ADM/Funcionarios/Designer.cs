@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ByteBank_ADM.Interface;
 
 namespace ByteBank_ADM.Funcionarios
 {
-	public class Designer : Funcionario
+	public class Designer : Funcionario, IBonificacao
 	{
 		public Designer(string cpf) : base (cpf, 3000)
 		{ 

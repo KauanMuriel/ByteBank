@@ -1,6 +1,7 @@
 ﻿using System;
 using ByteBank_ADM.Funcionarios;
 using ByteBank_ADM.Utilitario;
+using ByteBank_ADM.Parceria;
 
 namespace ByteBank_ADM
 {
@@ -72,14 +73,21 @@ namespace ByteBank_ADM
 				Diretor ingrid = new Diretor("298312");
 				ingrid.Nome = "Ingrid Guimarães";
 				ingrid.Senha = "1234";
+				ingrid.Login = "Ing";
 
 
 				GerenteDeContas ursular = new GerenteDeContas("123456");
 				ursular.Nome = "Ursulana";
 				ursular.Senha = "356";
+				ursular.Login = "Urs";
 
-				sistema.Logar(ursular, "356");
-				sistema.Logar(ingrid, "1234");
+				ParceiroComercial caio = new ParceiroComercial();
+				caio.Login = "Caio";
+				caio.Senha = "987";
+
+				sistema.Logar(ursular, "356", "Urs");
+				sistema.Logar(ingrid, "1234", "Ing");
+				sistema.Logar(caio, "987", "Caio");
 			}
 		}
 	}
