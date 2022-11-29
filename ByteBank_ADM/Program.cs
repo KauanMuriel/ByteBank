@@ -71,22 +71,15 @@ namespace ByteBank_ADM
 
 				Diretor ingrid = new Diretor("298312");
 				ingrid.Nome = "Ingrid Guimarães";
+				ingrid.Senha = "1234";
 
-				ingrid.Senha = "123";
-
-				sistema.Logar(ingrid, "123");
 
 				GerenteDeContas ursular = new GerenteDeContas("123456");
 				ursular.Nome = "Ursulana";
 				ursular.Senha = "356";
 
-				Auxiliar henrique = new Auxiliar("12356");
-				henrique.Nome = "Henrique Ayres";
-				henrique.Senha = "123";
-
-
-				sistema.Logar(ursular, "234");
-				sistema.Logar(ingrid, "123");
+				sistema.Logar(ursular, "356");
+				sistema.Logar(ingrid, "1234");
 			}
 		}
 	}
